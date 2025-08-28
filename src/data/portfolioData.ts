@@ -2,58 +2,73 @@
 import { Project, Skill, Experience } from '@/types';
 
 
+
+
  //  existing projects data
 export const projects: Project[] = [
   {
-    id: 'ecommerce-platform',
-    title: 'E-commerce Platform',
-    description: 'A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard built with modern technologies.',
-    summary: 'Full-stack shopping app with React, Node.js, and Stripe integration',
-    imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
-    demoUrl: 'https://demo.com',
-    githubUrl: 'https://github.com/user/project',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
+    id: 'twitter-clone',
+    title: 'Twitter Clone',
+    description: 'A basic clone of the famous web app Twitter. Features include user creation and authentication, guest sign in, ability to create and like tweets, ability to upload images, ability to make comments, and dynamic page updates.',
+    summary: 'Full-stack Social media app clone built with React, API and Database integration.',
+    imageUrl: '/images/projects/twitterclonesnapshot.png',
+    demoUrl: 'https://fitter-clone.vercel.app/',
+    githubUrl: 'https://github.com/Jrosero21/fitter-clone',
+    technologies: ['React', 'Tailwind CSS', 'Next.js', 'MongoDB', 'Prisma'],
     category: 'fullstack',
     featured: true,
-    completedAt: '2024-03'
+    completedAt: '2025-08'
   },
   {
-    id: 'task-management',
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-    summary: 'Collaborative task manager with real-time updates and drag-and-drop',
-    imageUrl: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop',
-    demoUrl: 'https://demo.com',
-    githubUrl: 'https://github.com/user/project',
-    technologies: ['React', 'TypeScript', 'Firebase', 'Material-UI'],
+    id: 'library-app',
+    title: 'Library',
+    description: 'Library is an E-commerce website mockup. The site offers a variety of features including multiple pages, dynamic routing, sorting options, a fully functional cart, and responsive design.',
+    summary: 'NFT marketplace app that brings together creators and collectors.',
+    imageUrl: '/images/projects/librarysnapshot.png',
+    demoUrl: 'https://e-commerce-app-main-orcin.vercel.app/',
+    githubUrl: 'https://github.com/Jrosero21/e-commerce-app-main',
+    technologies: ['HTML', 'JavaScript', 'CSS'],
     category: 'web',
     featured: true,
-    completedAt: '2024-01'
+    completedAt: '2025-08'
   },
   {
-    id: 'weather-app',
-    title: 'Weather Dashboard',
-    description: 'A responsive weather application with beautiful visualizations and location-based services.',
+    id: 'ultraverse',
+    title: 'Ultraverse',
+    description: 'The final product of my internship with Frontend Simplified. This internship consisted of converting a static website into a dynamic application using various Node.js libraries such as Axios, Owl Carousel, and Animate on Scroll. Maintained version control with repository branches and pull requests on github.',
+    summary: 'NFT marketplace app that brings together creators and collectors.',
+    imageUrl: '/images/projects/ultraversesnapshot.png',
+    demoUrl: 'https://jonny-utraverse.vercel.app/',
+    githubUrl: 'https://github.com/Jrosero21/jonny-internship',
+    technologies: ['React', 'JavaScript', 'Node', 'Git'],
+    category: 'web',
+    featured: true,
+    completedAt: '2025-07'
+  },
+  {
+    id: 'movie-db',
+    title: 'My Movie DB',
+    description: 'Responsive movie discovery web application that allows users to browse, search, and explore detailed information about movies in an engaging and visually appealing interface. Leveraging data from the TMDB API.',
     summary: 'Beautiful weather app with forecasts and location services',
-    imageUrl: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop',
-    demoUrl: 'https://demo.com',
-    githubUrl: 'https://github.com/user/project',
-    technologies: ['React', 'Chart.js', 'OpenWeatherMap API'],
+    imageUrl: '/images/projects/mmdbsnapshot.png',
+    demoUrl: 'https://mmdbv2-nine.vercel.app/',
+    githubUrl: 'https://github.com/Jrosero21/mmdbv2',
+    technologies: ['React', 'Vite', 'Node.js', 'TMDB API', 'CSS Modules','Bootstrap'],
     category: 'web',
     featured: false,
-    completedAt: '2023-11'
+    completedAt: '2025-06'
   },
   {
-    id: 'mobile-fitness',
-    title: 'Fitness Tracker',
-    description: 'React Native mobile application for tracking workouts and monitoring progress.',
-    summary: 'Mobile fitness tracker with workout logging and progress charts',
-    imageUrl: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop',
-    githubUrl: 'https://github.com/user/project',
-    technologies: ['React Native', 'Expo', 'Victory Charts'],
+    id: 'placeholder',
+    title: 'Coming Soon',
+    description: 'Mobile Apps coming soon.',
+    summary: 'All web applications are mobile responsive. Mobile apps coming soon.',
+    imageUrl: 'https://media.giphy.com/media/cebnL50gs0QJi53Yuj/giphy.gif',
+    githubUrl: 'https://github.com/Jrosero21',
+    technologies: ['React Native'],
     category: 'mobile',
-    featured: true,
-    completedAt: '2024-02'
+    featured: false,
+    completedAt: `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}`
   }
 ];
 
