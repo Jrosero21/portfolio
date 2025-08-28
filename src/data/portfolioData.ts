@@ -33,6 +33,19 @@ export const projects: Project[] = [
     completedAt: '2025-08'
   },
   {
+    id: 'storage-app',
+    title: 'G Drive',
+    description: 'App used for cloud storage.  Implemented Google sign-in for user authentication, can upload images of all types,  create new folders for organization.',
+    summary: 'Storage app built to store documents/files/images in a could database',
+    imageUrl: '/images/projects/gdrivesnapshot.png',
+    demoUrl: 'https://drive-tutorial-eight.vercel.app/',
+    githubUrl: 'https://github.com/Jrosero21/drive-tutorial',
+    technologies: ['React', 'Next', 'TypeScript', 'SingleStore', 'Tailwind CSS', 'NextAuth'],
+    category: 'web',
+    featured: true,
+    completedAt: '2025-08'
+  },
+  {
     id: 'ultraverse',
     title: 'Ultraverse',
     description: 'The final product of my internship with Frontend Simplified. This internship consisted of converting a static website into a dynamic application using various Node.js libraries such as Axios, Owl Carousel, and Animate on Scroll. Maintained version control with repository branches and pull requests on github.',
@@ -63,7 +76,7 @@ export const projects: Project[] = [
     title: 'Coming Soon',
     description: 'Mobile Apps coming soon.',
     summary: 'All web applications are mobile responsive. Mobile apps coming soon.',
-    imageUrl: 'https://media.giphy.com/media/cebnL50gs0QJi53Yuj/giphy.gif',
+    imageUrl: '/images/projects/comingsoon.gif',
     githubUrl: 'https://github.com/Jrosero21',
     technologies: ['React Native'],
     category: 'mobile',
