@@ -35,7 +35,7 @@ const About = () => {
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Here's a bit more about me and what I bring to the table
+              Here&apos;s a bit more about me and what I bring to the table
             </p>
           </motion.div>
   
@@ -49,19 +49,19 @@ const About = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">My Story</h3>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  I'm a frontend software engineer who loves to design and build innovative web 
+                  I&apos;m a frontend software engineer who loves to design and build innovative web 
                   applications using various technologies. My journey started with curiosity about 
                   how websites work, and it quickly became a passion for creating digital experiences 
                   that make a difference.
                 </p>
                 <p>
-                  When I'm not coding, you can find me exploring new technologies, contributing to 
+                  When I&apos;m not coding, you can find me exploring new technologies, contributing to 
                   open-source projects, or enjoying a good cup of coffee while reading about the 
                   latest web development trends.
                 </p>
                 <p>
                   I believe in writing clean, maintainable code and creating user experiences that 
-                  are both beautiful and functional. Let's build something amazing together!
+                  are both beautiful and functional. Let&apos;s build something amazing together!
                 </p>
               </div>
             </motion.div>

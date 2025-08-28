@@ -85,14 +85,14 @@ export const experience: Experience[] = [
   {
     company: 'Tech Startup Inc.',
     position: 'Frontend Developer',
-    description: 'Developed React applications serving 10k+ users. Collaborated with design and backend teams.',
+    description: "Developed React applications serving 10k+ users. Collaborated with design and backend teams.",
     startDate: '2023-06',
     endDate: undefined,
     location: 'Remote',
     achievements: [
-      'Improved app performance by 40%',
-      'Led TypeScript migration',
-      'Mentored 2 junior developers'
+      "Improved app performance by 40%",
+      "Led TypeScript migration",
+      "Mentored 2 junior developers"
     ]
   },
   {
@@ -103,8 +103,8 @@ export const experience: Experience[] = [
     endDate: '2023-05',
     location: 'San Francisco, CA',
     achievements: [
-      'Delivered 15+ client projects',
-      'Reduced page load time by 30%'
+      "Delivered 15+ client projects",
+      "Reduced page load time by 30%"
     ]
   }
 ];

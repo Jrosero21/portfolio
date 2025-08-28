@@ -85,7 +85,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                 </button>
               </div>
               <p className="text-gray-600 mt-2">
-                Let's discuss your project or just say hello!
+                Let&apos;s discuss your project or just say hello!
               </p>
             </div>
   

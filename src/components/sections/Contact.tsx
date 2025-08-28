@@ -65,7 +65,7 @@ const Contact = () => {
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Have a project in mind or just want to chat? I'd love to hear from you!
+              Have a project in mind or just want to chat? I&apos;d love to hear from you!
             </p>
           </motion.div>
   
@@ -76,10 +76,10 @@ const Contact = () => {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Let's work together</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Let&apos;s work together</h3>
               <p className="text-gray-600 mb-8">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                I&apos;m always interested in new opportunities and exciting projects. 
+                Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
               </p>
               
               <div className="space-y-6">

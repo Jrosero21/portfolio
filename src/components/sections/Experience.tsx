@@ -18,7 +18,7 @@ const Experience = () => {
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Experience</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              My professional journey and the impact I've made
+              My professional journey and the impact I&apos;ve made
             </p>
           </motion.div>
   
@@ -65,7 +65,7 @@ const Experience = () => {
                       <h4 className="font-semibold text-gray-900">Key Achievements:</h4>
                       <ul className="list-disc list-inside text-gray-600 space-y-1">
                         {exp.achievements.map((achievement, i) => (
-                          <li key={i}>{achievement}</li>
+                          <li key={i} dangerouslySetInnerHTML={{ __html: achievement.replace(/'/g, '&apos;') }}></li>
                         ))}
                       </ul>
                     </div>
