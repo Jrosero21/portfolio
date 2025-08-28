@@ -99,7 +99,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">LinkedIn</h4>
-                    <p className="text-gray-600">linkedin.com/in/Jonny</p>
+                    <p className="text-gray-600">linkedin.com/in/Jonnyrosero</p>
                   </div>
                 </div>
                 
