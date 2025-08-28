@@ -109,7 +109,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">GitHub</h4>
-                    <p className="text-gray-600">github.com/Jonnyrosero21</p>
+                    <p className="text-gray-600">github.com/Jrosero21</p>
                   </div>
                 </div>
               </div>
