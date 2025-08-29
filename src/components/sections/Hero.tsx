@@ -57,7 +57,7 @@ const Hero = () => {
                 </motion.div>
                 
                 <h1 className="text-5xl md:text-7xl font-bold mb-4">
-                  Hey, I&apos;m{' '}
+                  Hey, I'm{' '}
                   <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                     Jonny
                   </span>
