@@ -105,9 +105,9 @@ export const skills: Skill[] = [
   { name: 'TypeScript', category: 'frontend', proficiency: 4 },
   { name: 'Next.js', category: 'frontend', proficiency: 4 },
   { name: 'Tailwind CSS', category: 'frontend', proficiency: 5 },
-  { name: 'Vue.js', category: 'frontend', proficiency: 3 },
+  { name: 'Vue.js', category: 'frontend', proficiency: 4 },
   { name: 'Node.js', category: 'backend', proficiency: 4 },
-  { name: 'PostgreSQL', category: 'backend', proficiency: 3 },
+  { name: 'PostgreSQL', category: 'backend', proficiency: 4 },
   { name: 'MongoDB', category: 'backend', proficiency: 3 },
   { name: 'Express.js', category: 'backend', proficiency: 4 },
   { name: 'Git', category: 'tools', proficiency: 4 },
@@ -117,7 +117,7 @@ export const skills: Skill[] = [
   { name: 'JavaScript', category: 'languages', proficiency: 5 },
   { name: 'Python', category: 'languages', proficiency: 3 },
   { name: 'Java', category: 'languages', proficiency: 2 },
-  { name: 'SQL', category: 'languages', proficiency: 4 }
+  { name: 'SQL', category: 'languages', proficiency: 5 }
 ];
 
 
