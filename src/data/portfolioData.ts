@@ -124,25 +124,28 @@ export const skills: Skill[] = [
  //  existing experience data
 export const experience: Experience[] = [
   {
-    company: 'Tech Startup Inc.',
-    position: 'Frontend Developer',
-    description: "Developed React applications serving 10k+ users. Collaborated with design and backend teams.",
-    startDate: '2023-06',
+    company: 'Skinstric A.I.',
+    position: 'Frontend Developer Intern',
+    description: "Developed responsive React workflows for data capture, image processing, and demographic analysis.",
+    startDate: '2025-08',
     endDate: undefined,
     location: 'Remote',
     achievements: [
-      "Improved app performance by 40%",
-      "Led TypeScript migration",
-      "Mentored 2 junior developers"
+      "Converted Figma designs into responsive React components",
+      "Implemented multi-step workflow (data capture → image upload → results)",
+      "Integrated Google Cloud Function APIs for data and image processing",
+      "Added client-side form validation and error handling",
+      "Enabled selfie capture via webcam/mobile",
+      "Displayed AI demographic predictions with editable results"
     ]
   },
   {
-    company: 'Digital Agency Co.',
-    position: 'Junior Web Developer',
+    company: 'Frontend Simplified',
+    position: 'Frontend Developer Intern',
     description: 'Built custom websites using modern web technologies.',
-    startDate: '2022-01',
-    endDate: '2023-05',
-    location: 'San Francisco, CA',
+    startDate: '2025-05',
+    endDate: '2025-08',
+    location: 'Remote',
     achievements: [
       "Delivered 15+ client projects",
       "Reduced page load time by 30%"
