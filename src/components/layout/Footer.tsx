@@ -39,7 +39,7 @@ const Footer = () => {
               <a href="https://linkedin.com" className="hover:text-purple-400 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:Jonny@gmail.com" className="hover:text-purple-400 transition-colors">
+              <a href="mailto:jnrosero@gmail.com" className="hover:text-purple-400 transition-colors">
                 <Mail size={24} />
               </a>
             </div>
