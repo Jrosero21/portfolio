@@ -57,7 +57,7 @@ const Hero = () => {
                 </motion.div>
                 
                 <h1 className="text-5xl md:text-7xl font-bold mb-4">
-                  Hey, I'm{' '}
+                  Hey, I&apos;m{' '}
                   <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                     Jonny
                   </span>
@@ -65,7 +65,7 @@ const Hero = () => {
                 
                 <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
                   A passionate <span className="font-semibold text-purple-600">frontend software engineer</span> who loves
-                  turning ideas into sleak, interactive web experiences using today's most modern tools!
+                  turning ideas into sleak, interactive web experiences using today&apos;s most modern tools!
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
