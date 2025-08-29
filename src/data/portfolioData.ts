@@ -7,6 +7,19 @@ import { Project, Skill, Experience } from '@/types';
  //  existing projects data
 export const projects: Project[] = [
   {
+    id: 'ebay-generator',
+    title: 'eBay AI Listing Generator',
+    description: 'AI-powered eBay listing generator that takes product photos and outputs professional descriptions, safety details, and market-based pricing (React, Node.js, AWS Rekognition, OpenAI, eBay API).',
+    summary: 'Full-stack AI-powered tool that automates product listing creation from photos. ** NOT LIVE DUE TO APIS **',
+    imageUrl: '/images/projects/ebaygeneratorsnapshot.png',
+    demoUrl: 'https://drive.google.com/file/d/1qetVBJenqMAoSXTLa2DJU84-e3EvzIZ7/view?usp=sharing',
+    githubUrl: 'https://github.com/Jrosero21/ebay-listing-generator',
+    technologies: ['React', 'Node.js', 'Express', 'AWS Rekognition', 'OpenAI API', 'eBay Browse API'],
+    category: 'fullstack',
+    featured: true,
+    completedAt: '2025-09'
+  },
+  {
     id: 'twitter-clone',
     title: 'Twitter Clone',
     description: 'A basic clone of the famous web app Twitter. Features include user creation and authentication, guest sign in, ability to create and like tweets, ability to upload images, ability to make comments, and dynamic page updates.',
