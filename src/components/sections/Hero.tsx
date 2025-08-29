@@ -128,7 +128,7 @@ const Hero = () => {
                   <Linkedin size={24} />
                 </motion.a>
                 <motion.a
-                  href="mailto:Jonny@gmail.com"
+                  href="mailto:Jnrosero@gmail.com"
                   className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all"
                   whileHover={{ scale: 1.1, y: -2 }}
                 >

@@ -158,7 +158,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Mail size={16} className="text-purple-500" />
-                    <span className="text-sm text-gray-700">Jonny@gmail.com</span>
+                    <span className="text-sm text-gray-700">Jnrosero@gmail.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Linkedin size={16} className="text-purple-500" />
