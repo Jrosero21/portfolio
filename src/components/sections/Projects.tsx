@@ -6,13 +6,15 @@ import { motion} from 'framer-motion';
 import { Github,  ExternalLink } from 'lucide-react';
 
 const ProjectCard = ({ project }: { project: Project }) => {
+    const [isExpanded, setIsExpanded] = useState(false);
+    
     return (
       <motion.div
         className="relative group cursor-pointer overflow-hidden rounded-xl bg-white shadow-lg"
         whileHover={{ y: -8 }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
       >
-        <div className="relative aspect-video overflow-hidden">
+        <div className="relative aspect-[4/3] overflow-hidden">
           <img
             src={project.imageUrl}
             alt={project.title}
@@ -26,16 +28,16 @@ const ProjectCard = ({ project }: { project: Project }) => {
           )}
           
           <motion.div
-            className="absolute inset-0 bg-black/80 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-white opacity-0 group-hover:opacity-100"
+            className="absolute inset-0 bg-black/80 backdrop-blur-sm flex flex-col items-center justify-center p-8 text-white opacity-0 group-hover:opacity-100"
             transition={{ duration: 0.3 }}
           >
-            <div className="text-center space-y-4">
+            <div className="text-center space-y-5">
               <h3 className="text-xl font-bold">{project.title}</h3>
               <p className="text-gray-200 text-sm leading-relaxed">
                 {project.summary}
               </p>
               
-              <div className="flex flex-wrap justify-center gap-2 mb-4">
+              <div className="flex flex-wrap justify-center gap-2 mb-6">
                 {project.technologies.slice(0, 3).map((tech) => (
                   <span
                     key={tech}
@@ -92,18 +94,46 @@ const ProjectCard = ({ project }: { project: Project }) => {
             <span className="text-sm text-gray-500">{project.completedAt}</span>
           </div>
           
-          <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+          <p className={`text-gray-600 text-sm mb-4 ${isExpanded ? '' : 'line-clamp-2'}`}>
             {project.description}
           </p>
+          
+          {isExpanded && (
+            <div className="mb-4">
+              <div className="flex flex-wrap gap-2">
+                {project.technologies.map((tech) => (
+                  <span
+                    key={tech}
+                    className="bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 px-2 py-1 rounded-md text-xs font-medium"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
           
           <div className="flex items-center justify-between">
             <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium capitalize">
               {project.category}
             </span>
-            <span className="text-xs text-gray-500">
-              {project.technologies.length} technologies
-            </span>
+            {!isExpanded ? (
+              <span className="text-xs text-gray-500">
+                {project.technologies.length} technologies
+              </span>
+            ) : (
+              <span className="text-xs text-gray-500">
+                All {project.technologies.length} technologies shown
+              </span>
+            )}
           </div>
+          
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="w-full mt-3 text-center text-sm font-medium text-purple-600 hover:text-purple-800 transition-colors focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 rounded py-1"
+          >
+            {isExpanded ? 'Show Less' : 'Show More'}
+          </button>
         </div>
       </motion.div>
     );
