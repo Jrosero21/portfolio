@@ -16,7 +16,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           <img
             src={project.imageUrl}
             alt={project.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            className={`w-full h-full ${project.id === 'placeholder' ? 'object-contain bg-gray-100' : 'object-cover'} transition-transform duration-500 group-hover:scale-110`}
           />
           
           {project.featured && (

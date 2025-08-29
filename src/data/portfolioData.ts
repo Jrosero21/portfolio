@@ -11,7 +11,7 @@ export const projects: Project[] = [
     title: 'eBay AI Listing Generator',
     description: 'AI-powered eBay listing generator that takes product photos and outputs professional descriptions, safety details, and market-based pricing (React, Node.js, AWS Rekognition, OpenAI, eBay API).',
     summary: 'Full-stack AI-powered tool that automates product listing creation from photos. ** NOT LIVE DUE TO APIS **',
-    imageUrl: '/images/projects/ebaygeneratorsnapshot.png',
+    imageUrl: '/images/projects/ebaysnapshot.png',
     demoUrl: 'https://drive.google.com/file/d/1qetVBJenqMAoSXTLa2DJU84-e3EvzIZ7/view?usp=sharing',
     githubUrl: 'https://github.com/Jrosero21/ebay-listing-generator',
     technologies: ['React', 'Node.js', 'Express', 'AWS Rekognition', 'OpenAI API', 'eBay Browse API'],
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Jrosero21/e-commerce-app-main',
     technologies: ['HTML', 'JavaScript', 'CSS'],
     category: 'web',
-    featured: true,
+    featured: false,
     completedAt: '2025-08'
   },
   {
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Jrosero21/drive-tutorial',
     technologies: ['React', 'Next', 'TypeScript', 'SingleStore', 'Tailwind CSS', 'NextAuth'],
     category: 'web',
-    featured: true,
+    featured: false,
     completedAt: '2025-08'
   },
   {
@@ -74,12 +74,12 @@ export const projects: Project[] = [
   {
     id: 'movie-db',
     title: 'My Movie DB',
-    description: 'Responsive movie discovery web application that allows users to browse, search, and explore detailed information about movies in an engaging and visually appealing interface. Leveraging data from the TMDB API.',
-    summary: 'Beautiful weather app with forecasts and location services',
+    description: 'A React/Vite app that uses the TMDB API to let users search, browse, and view details for movies — including current showings near their location.',
+    summary: 'Interactive movie discovery app leveraging TMDB API for real-time film data.',
     imageUrl: '/images/projects/mmdbsnapshot.png',
     demoUrl: 'https://mmdbv2-nine.vercel.app/',
     githubUrl: 'https://github.com/Jrosero21/mmdbv2',
-    technologies: ['React', 'Vite', 'Node.js', 'TMDB API', 'CSS Modules','Bootstrap'],
+    technologies: ['React', 'Vite', 'React Router', 'TMDB API','Bootstrap'],
     category: 'web',
     featured: false,
     completedAt: '2025-06'
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     technologies: ['React Native'],
     category: 'mobile',
     featured: false,
-    completedAt: `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}`
+    completedAt: 'TBD'
   }
 ];
 

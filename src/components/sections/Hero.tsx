@@ -65,7 +65,7 @@ const Hero = () => {
                 
                 <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
                   A passionate <span className="font-semibold text-purple-600">frontend software engineer</span> who loves
-                  to design and build innovative web applications using modern technologies!
+                  turning ideas into sleak, interactive web experiences using today's most modern tools!
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
