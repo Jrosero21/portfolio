@@ -135,20 +135,28 @@ export const experience: Experience[] = [
       "Implemented multi-step workflow (data capture → image upload → results)",
       "Integrated Google Cloud Function APIs for data and image processing",
       "Added client-side form validation and error handling",
-      "Enabled selfie capture via webcam/mobile",
+      "Enabled image capture via webcam/mobile",
       "Displayed AI demographic predictions with editable results"
     ]
   },
   {
     company: 'Frontend Simplified',
     position: 'Frontend Developer Intern',
-    description: 'Built custom websites using modern web technologies.',
+    description: 'Built a responsive React.js NFT platform with Firebase authentication, Firestore database, and REST API integration to display and manage 1,000+ digital assets, achieving fast load times and secure user access.',
     startDate: '2025-05',
     endDate: '2025-08',
     location: 'Remote',
     achievements: [
-      "Delivered 15+ client projects",
-      "Reduced page load time by 30%"
+      "Developed responsive React components for NFT display",
+      "Integrated REST APIs with Axios for NFT metadata retrieval",
+      "Implemented Firebase Authentication with 500+ registered users",
+      "Managed user data with Firestore Database",
+      "Built 15+ reusable React components with Redux & Material-UI",
+      "Deployed Firebase Cloud Functions for backend operations",
+      "Reduced server response time by 30% for metadata retrieval",
+      "Created mobile-responsive layouts (Flexbox & Grid, 98% compatibility)",
+      "Collaborated in Agile workflow, resolving 40+ Jira tickets in 3 months",
+      "Used Git for version control in a 3-person dev team"
     ]
   }
 ];
