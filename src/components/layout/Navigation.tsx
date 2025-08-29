@@ -42,13 +42,14 @@ import {
       }`}>
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center py-4">
-            <motion.div
+            <motion.a
+              href="#home"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"
+              className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:opacity-80 transition-opacity cursor-pointer"
             >
               Jonny
-            </motion.div>
+            </motion.a>
   
             <div className="hidden md:flex space-x-8">
               {navItems.map((item) => (
