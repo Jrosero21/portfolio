@@ -7,18 +7,11 @@ import emailjs from '@emailjs/browser';
 import { 
   Github, 
   Linkedin, 
-  Mail, 
-  ExternalLink, 
-  Menu, 
-  X, 
-  ChevronDown,
   Code,
   Palette,
   Database,
   Smartphone,
-  ArrowRight,
-  MapPin,
-  Calendar,
+
 } from 'lucide-react';
 
 // About Component
@@ -50,14 +43,13 @@ const About = () => {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   I&apos;m a frontend software engineer who loves to design and build innovative web 
-                  applications using various technologies. My journey started with curiosity about 
-                  how websites work, and it quickly became a passion for creating digital experiences 
+                  applications using various technologies. My journey started as an analyst woring with developers on 
+                  various projects and my curiosity quickly became a passion for creating digital experiences 
                   that make a difference.
                 </p>
                 <p>
                   When I&apos;m not coding, you can find me exploring new technologies, contributing to 
-                  open-source projects, or enjoying a good cup of coffee while reading about the 
-                  latest web development trends.
+                  open-source projects, or enjoying a classic film with my "calm" dogs.
                 </p>
                 <p>
                   I believe in writing clean, maintainable code and creating user experiences that 
