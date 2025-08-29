@@ -19,6 +19,7 @@ import {
   ArrowRight,
   MapPin,
   Calendar,
+  FileText,
 } from 'lucide-react';
 
 
@@ -115,6 +116,15 @@ const Hero = () => {
                     whileHover={{ scale: 1.1, y: -2 }}
                   >
                     <Mail size={24} />
+                  </motion.a>
+                  <motion.a
+                    href="/resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all"
+                    whileHover={{ scale: 1.1, y: -2 }}
+                  >
+                    <FileText size={24} />
                   </motion.a>
                 </div>
               </div>
