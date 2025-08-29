@@ -49,7 +49,7 @@ const About = () => {
                 </p>
                 <p>
                   When I&apos;m not coding, you can find me exploring new technologies, contributing to 
-                  open-source projects, or enjoying a classic film with my "calm" dogs.
+                  open-source projects, or enjoying a classic film with my &quot;calm&quot; dogs.
                 </p>
                 <p>
                   I believe in writing clean, maintainable code and creating user experiences that 

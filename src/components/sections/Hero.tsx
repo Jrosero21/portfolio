@@ -65,7 +65,7 @@ const Hero = () => {
                 
                 <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
                   A passionate <span className="font-semibold text-purple-600">frontend software engineer</span> who loves
-                  turning ideas into sleak, interactive web experiences using today&apos;s most modern tools!
+                  turning ideas into sleek, interactive web experiences using today&apos;s most modern tools!
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -93,6 +93,8 @@ const Hero = () => {
                 <div className="flex justify-center gap-6 mt-12">
                   <motion.a
                     href="https://github.com/Jrosero21"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all"
                     whileHover={{ scale: 1.1, y: -2 }}
                   >
@@ -100,6 +102,8 @@ const Hero = () => {
                   </motion.a>
                   <motion.a
                     href="https://linkedin.com/in/jonnyrosero"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-all"
                     whileHover={{ scale: 1.1, y: -2 }}
                   >
