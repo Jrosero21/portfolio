@@ -1,3 +1,13 @@
+### AutoSSL-Satellite Don't Edit Below This Line ###
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	# Force HTTPS
+	RewriteCond %{HTTPS} off
+	RewriteCond %{HTTP:X-Forwarded-SSL} !on
+	RewriteRule ^(.*)$ "https://%{HTTP_HOST}%{REQUEST_URI}" [R=301,L]
+</IfModule>
+### AutoSSL-Satellite Don't Edit Above This Line ###
+
 # jonnyrosero.com: static Next.js export on Namecheap (Apache)
 
 Options -Indexes
@@ -6,9 +16,8 @@ ErrorDocument 404 /404.html
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # Force HTTPS + apex domain
-  RewriteCond %{HTTPS} off [OR]
-  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  # www -> apex (HTTPS itself is forced by the AutoSSL block above)
+  RewriteCond %{HTTP_HOST} ^www\.jonnyrosero\.com$ [NC]
   RewriteRule ^ https://jonnyrosero.com%{REQUEST_URI} [L,R=301]
 </IfModule>
 
