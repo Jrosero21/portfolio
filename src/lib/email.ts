@@ -18,7 +18,9 @@ export async function sendEmail(form: { name: string; email: string; message: st
       PUBLIC_KEY,
     );
     return { ok: true, message: 'Thanks! Your message is in. I’ll reply within a day or two.' };
-  } catch {
+  } catch (err) {
+    const detail = err && typeof err === 'object' && 'text' in err ? (err as { status?: number; text?: string }) : err;
+    console.error('[contact] EmailJS send failed', detail);
     return { ok: false, message: 'Something went wrong sending that. Please email me directly.' };
   }
 }
