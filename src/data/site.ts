@@ -12,10 +12,10 @@ export const profile = {
 };
 
 export const heroStats = [
-  { value: '12 yrs', label: 'building the systems a business runs on' },
-  { value: '184', label: 'table data platform I built from scratch' },
-  { value: '18 → 7', label: 'days of work-order cycle time' },
-  { value: '2,000+', label: 'commits shipped in 2026' },
+  { value: '12', label: 'departments on the data platform I built' },
+  { value: '20 → 2', label: 'days to invoice after my redesign' },
+  { value: '$250K', label: 'saved a year through automation' },
+  { value: '9 yrs', label: 'leading teams' },
 ];
 
 export const capabilities = [
