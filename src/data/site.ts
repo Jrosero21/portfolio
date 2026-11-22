@@ -13,7 +13,7 @@ export const profile = {
 
 export const heroStats = [
   { value: '12 yrs', label: 'building the systems a business runs on' },
-  { value: '$2M', label: 'stalled billing recovered in 15 days' },
+  { value: '184', label: 'table data platform I built from scratch' },
   { value: '18 → 7', label: 'days of work-order cycle time' },
   { value: '2,000+', label: 'commits shipped in 2026' },
 ];
@@ -55,7 +55,7 @@ export const principles = [
   {
     title: 'Fix the process, not just the report',
     body: 'The best dashboard is the one that finds the broken step upstream. Root cause first, then the build.',
-    ref: '$2M billing recovery',
+    ref: 'Work-order & invoicing redesign',
   },
 ];
 

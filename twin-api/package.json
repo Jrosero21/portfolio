@@ -1,0 +1,7 @@
+{
+  "name": "jonnyrosero-twin-api",
+  "private": true,
+  "type": "module",
+  "description": "Serverless digital-twin chat endpoint for jonnyrosero.com",
+  "engines": { "node": ">=20" }
+}

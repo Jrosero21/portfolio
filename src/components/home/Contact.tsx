@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { ArrowUpRight, Check, Copy, FileText, Loader2, Mail } from 'lucide-react';
+import { ArrowUpRight, Check, Copy, FileText, Loader2, Mail, MessageCircle } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { profile } from '@/data/site';
 import { sendEmail } from '@/lib/email';
@@ -48,6 +48,19 @@ export default function Contact() {
           </p>
 
           <div className="mt-10 space-y-3">
+            {process.env.NEXT_PUBLIC_TWIN_API_URL && (
+              <button
+                type="button"
+                onClick={() => window.dispatchEvent(new Event('open-twin'))}
+                className="flex w-full items-center justify-between rounded-xl border border-accent/40 bg-accent-soft px-4 py-3.5 text-left transition-colors hover:border-accent"
+              >
+                <span className="flex items-center gap-3">
+                  <MessageCircle size={18} className="text-accent" />
+                  Ask my AI twin. It answers instantly.
+                </span>
+                <ArrowUpRight size={15} className="text-accent" />
+              </button>
+            )}
             <button
               type="button"
               onClick={copyEmail}
